@@ -179,9 +179,22 @@ textarea.input{font-family:var(--hand);font-size:1.02rem;line-height:1.6}
 .sys{display:flex;gap:12px;align-items:flex-start;background:var(--sysbg);border:1px solid var(--sysline);border-radius:20px 20px 20px 6px;padding:13px 15px;position:relative;overflow:hidden;backdrop-filter:var(--glass);-webkit-backdrop-filter:var(--glass)}
 .sys .av{flex:none;width:32px;height:32px;margin-top:2px;border-radius:50%;background:radial-gradient(circle at 36% 34%,#fff,var(--sys) 38%,var(--sys-glow) 80%);box-shadow:0 0 14px var(--sys-glow);animation:breathe 4.5s ease-in-out infinite}
 @keyframes breathe{50%{box-shadow:0 0 26px var(--sys-glow),0 0 2px #fff;transform:scale(1.06)}}
+.sys .av{background:url("data:image/jpeg;base64,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") center/cover no-repeat,#1c2140;width:40px;height:40px;margin-top:0;border:1.5px solid var(--sys)}
 .sys .nm{color:var(--sys);font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;font-weight:700}
 .sys .nm::after{content:" · 校園助手";font-weight:400;opacity:.6}
 
+/* 幕倒數 */
+.timer{display:inline-flex;align-items:center;gap:4px;font-family:var(--mono);font-size:.78rem;font-weight:700;padding:.08em .55em;border-radius:99px;border:1px solid var(--line);color:var(--text)}
+.timer.warn{color:#fff;background:var(--danger);border-color:var(--danger);animation:blink 1s infinite}
+/* 攔截轉發小遊戲 */
+.mg{position:fixed;inset:0;z-index:60;background:rgba(8,10,18,.82);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:flex;flex-direction:column;align-items:center;padding:20px 16px;color:#fff}
+.mg-hd{text-align:center;max-width:420px}
+.mg-hd b{font-family:var(--display);font-size:1.3rem;letter-spacing:.06em}
+.mg-score{font-family:var(--mono);font-size:1rem;margin-top:6px}
+.mg-field{position:relative;flex:1;width:100%;max-width:460px;margin-top:12px;border:1px dashed rgba(255,255,255,.25);border-radius:18px;overflow:hidden;touch-action:manipulation}
+.mg-n{position:absolute;display:flex;align-items:center;gap:6px;padding:8px 12px;border-radius:14px;background:rgba(255,59,92,.92);color:#fff;font-size:.85rem;font-weight:700;cursor:pointer;border:0;box-shadow:0 8px 20px -8px #ff3b5c;animation:pop .3s cubic-bezier(.2,1.6,.4,1)}
+.mg-n.hit{background:#35c98a;box-shadow:none;transform:scale(.85);transition:transform .2s,opacity .3s;opacity:0}
+.game-card .cd{font-family:var(--mono);color:var(--muted)}
 /* 搜證地點 */
 .loc{display:flex;align-items:center;gap:14px;background:var(--panel);border:var(--bw) solid var(--line);border-radius:var(--r);padding:14px 16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
 .loc.locked .chip{filter:grayscale(1);opacity:.5}
@@ -3087,9 +3100,9 @@ const GAME = {
     greet: "嗨，我是小織。我會陪你們一起把事情弄清楚。每一幕我都會告訴你們可以做什麼。",
     acts: {
       0: "大家先讀完序章和自己的角色本。讀完按「準備好」。",
-      1: "第一幕：自我介紹。每個人輪流用 1 分鐘說你是誰、跟以恆的關係。先不用急著推理。建議 10 分鐘。",
-      2: "第二幕：第一輪搜證。每個人有搜證點數，點地點就會抽到一張線索。線索可以留著，也可以公開給大家。建議 20 分鐘。",
-      3: "第三幕：第二輪搜證與對質。新的地點開放了，共享時間線也開放了。把大家知道的放上去，找出矛盾。建議 25 分鐘。",
+      1: "第一幕：自我介紹。每個人輪流用 1 分鐘說你是誰、跟以恆的關係。先不用急著推理。限時 10 分鐘，時間到會自動進入下一幕。",
+      2: "第二幕：第一輪搜證。每個人有搜證點數，點地點就會抽到一張線索。線索可以留著，也可以公開給大家。限時 20 分鐘，時間到會自動進入下一幕。",
+      3: "第三幕：第二輪搜證與對質。新的地點開放了，共享時間線也開放了。把大家知道的放上去，找出矛盾。限時 25 分鐘，時間到會自動進入下一幕。",
       4: "第四幕：投票。兩個問題，每個人各投一票。投完就無法更改。",
       5: "",
     },
@@ -3190,6 +3203,10 @@ if (typeof module !== "undefined") module.exports = GAME;
   const LOC_LOOK = { office: ["door", "a"], access: ["eye", "b"], cloud: ["phone", "d"], board: ["megaphone", "c"], report: ["shield", "e"] };
   const CLUE = {}, CLUE_NO = {}; { let n = 0; G.locations.forEach((l) => l.clues.forEach((c) => (CLUE_NO[c.id] = ++n))); }
    G.locations.forEach((l) => l.clues.forEach((c) => (CLUE[c.id] = { ...c, loc: l.id, locName: l.name })));
+  // 每幕限時（分鐘），從小織的台詞讀出來
+  const ACT_MIN = {}; Object.entries(G.system.acts).forEach(([k, t]) => { const mm = /限時 (\d+) 分鐘/.exec(t || ""); if (mm) ACT_MIN[k] = +mm[1]; });
+  // 賺點數：公開線索（每幕最多 2 次）、攔截轉發小遊戲（每幕最多 3 次、每次間隔 2 分鐘）
+  const EARN = { pubMax: 2, gameMax: 3, cooldown: 120000 };
   const PHASE_NAME = { lobby: "等待玩家", pick: "選擇角色", 0: "讀本", 1: "第一幕・自我介紹", 2: "第二幕・搜證", 3: "第三幕・搜證與對質", 4: "第四幕・投票", 5: "結局" };
 
   /* ---------------- transport ---------------- */
@@ -3417,15 +3434,19 @@ if (typeof module !== "undefined") module.exports = GAME;
     const pushLog = (text) => { S.log.push({ at: Date.now(), text }); if (S.log.length > 80) S.log.shift(); };
     const n = () => S.players.length;
     const broadcast = () => {
+      S.hostNow = Date.now();
       save();
       for (const [cid, pid] of connPid) HOST.t.send(cid, { t: "state", s: S, you: pid });
       if (HOST.localPid) onState(S, HOST.localPid);
     };
-    const pts = (phase) => (phase === 2 ? Math.ceil(16 / n()) : Math.ceil(4 / n()) + 1);
+    // 基本點數（比以前少），其餘靠「交換」和小遊戲賺
+    const pts = (phase) => (phase === 2 ? Math.ceil(10 / n()) : Math.ceil(4 / n()));
+    const setDeadline = () => { const mn = ACT_MIN[S.phase]; S.deadline = mn ? Date.now() + mn * 60000 : null; };
     function advance() {
       if (S.phase === "lobby" || S.phase >= 5) return;
       S.phase += 1;
-      S.players.forEach((p) => { p.ready = false; p.stuck = false; });
+      S.players.forEach((p) => { p.ready = false; p.stuck = false; p.earn = { pub: 0, game: 0 }; });
+      setDeadline();
       if (S.phase === 2 || S.phase === 3) S.players.forEach((p) => (p.points += pts(S.phase)));
       if (S.phase === 3 && S.players.some((p) => ROLE(p.role)?.hopeReceiver)) S.hope.shown = true;
       pushLog("進入" + PHASE_NAME[S.phase]);
@@ -3446,11 +3467,15 @@ if (typeof module !== "undefined") module.exports = GAME;
       S.players.forEach((x, i) => { x.role = ids[i]; x.ready = false; });
       const L = S.pool.slice(); for (let i = L.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [L[i], L[j]] = [L[j], L[i]]; }
       S.letters = {}; L.forEach((id, i) => (S.letters[id] = LETTERS[i])); S.names = {}; S.avatars = {};
+      nameFromNick();
     }
+    // 角色名字直接用首頁輸入的暱稱
+    function nameFromNick() { S.names = S.names || {}; S.players.forEach((x) => { if (x.role) S.names[x.role] = String(x.name || "").replace(/[«»<>]/g, "").trim() || "角色" + (S.letters[x.role] || "?"); }); }
     function randFill() {
       const free = S.pool.filter((id) => !S.players.some((p) => p.role === id));
       for (let i = free.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [free[i], free[j]] = [free[j], free[i]]; }
       S.players.filter((p) => !p.role).forEach((p) => (p.role = free.shift()));
+      nameFromNick();
     }
     function apply(pid, a) {
       const p = S.players.find((x) => x.pid === pid); if (!p) return;
@@ -3458,8 +3483,7 @@ if (typeof module !== "undefined") module.exports = GAME;
       switch (a.k) {
         case "start":
           if (!isHost || S.phase !== "lobby" || n() < G.players.min || n() > G.players.max) return;
-          S.pool = makePool(); dealRoles(); S.phase = "pick"; pushLog("角色已隨機分配，請替你的角色取名字"); break;
-        case "reroll": if (isHost && S.phase === "pick") { dealRoles(); pushLog("開房者重新抽了角色"); } break;
+          S.pool = makePool(); dealRoles(); S.phase = "pick"; pushLog("角色已隨機分配"); break;
         case "avatar": {
           if (S.phase !== "pick" || !p.role || !AV(a.av)) return;
           S.avatars = S.avatars || {};
@@ -3489,7 +3513,22 @@ if (typeof module !== "undefined") module.exports = GAME;
           S.clues[c.id] = { by: pid, pub: false, rev: false, act: S.phase };
           pushLog(who(p) + " 在「" + loc.name + "」找到一張線索"); break;
         }
-        case "pub": { const c = S.clues[a.id]; if (c && c.by === pid && !c.pub) { c.pub = true; pushLog(who(p) + " 公開了「" + CLUE[a.id].title + "」"); } break; }
+        case "pub": {
+          const c = S.clues[a.id]; if (!(c && c.by === pid && !c.pub)) break;
+          c.pub = true; p.earn = p.earn || { pub: 0, game: 0 };
+          let bonus = "";
+          if (S.phase >= 2 && S.phase <= 3 && p.earn.pub < EARN.pubMax) { p.earn.pub += 1; p.points += 1; bonus = "（換到 1 點搜證點數）"; }
+          pushLog(who(p) + " 公開了「" + CLUE[a.id].title + "」" + bonus); break;
+        }
+        case "gtry": {
+          p.earn = p.earn || { pub: 0, game: 0 };
+          if (S.phase < 2 || S.phase > 3 || p.earn.game >= EARN.gameMax || (p.gTry && Date.now() - p.gTry < EARN.cooldown)) return;
+          p.gTry = Date.now(); p.gWon = false; break;
+        }
+        case "gwin": {
+          if (S.phase < 2 || S.phase > 3 || !p.gTry || p.gWon || Date.now() - p.gTry > 30000) return;
+          p.gWon = true; p.earn.game += 1; p.points += 1; pushLog(who(p) + " 攔截了一波轉發，拿到 1 點搜證點數"); break;
+        }
         case "rev": { const c = S.clues[a.id]; if (c && c.by === pid) c.rev = true; break; }
         case "hope":
           if (S.phase === 3 && ROLE(p.role)?.hopeReceiver && !S.hope.replied && p.points >= G.hope.replyCost) { p.points -= G.hope.replyCost; S.hope.replied = true; }
@@ -3523,6 +3562,9 @@ if (typeof module !== "undefined") module.exports = GAME;
       return p;
     }
     HOST = { S, connPid, apply, localPid: null };
+    setInterval(() => {
+      if (typeof S.phase === "number" && S.phase >= 1 && S.phase <= 3 && S.deadline && Date.now() >= S.deadline) { pushLog("時間到，自動進入下一幕"); advance(); broadcast(); }
+    }, 1000);
     HOST.t = makeHostTransport(code, (cid, m) => {
       if (m.t === "join") { const p = join(cid, m); if (p) { connPid.set(cid, p.pid); broadcast(); } }
       else if (m.t === "act") { const pid = connPid.get(cid); if (pid) apply(pid, m.a); }
@@ -3551,7 +3593,10 @@ if (typeof module !== "undefined") module.exports = GAME;
   function setConn(s, msg) { connState = { s, msg: msg || "" }; const el = $("#conn"); if (el) el.textContent = s === "ok" ? "" : msg || ""; }
 
   let lastPhase = null, lastHope = false;
+  let CLOCK_OFF = 0; // 本機時間 - 開房者時間
+  const hostNow = () => Date.now() - CLOCK_OFF;
   function onState(S, you) {
+    if (S.hostNow) CLOCK_OFF = Date.now() - S.hostNow;
     VIEW.S = S; VIEW.you = you;
     LS.set("larp-session", { code: S.code, name: me()?.name, host: !!(HOST && HOST.localPid) });
     if (lastPhase !== S.phase) { if (typeof S.phase === "number") VIEW.tab = S.phase === 4 ? "vote" : S.phase === 5 ? "end" : VIEW.tab === "vote" || VIEW.tab === "end" ? "book" : VIEW.tab; lastPhase = S.phase; window.scrollTo(0, 0); }
@@ -3590,7 +3635,7 @@ if (typeof module !== "undefined") module.exports = GAME;
     ["a9", "匿名", "留言：「先不要亂猜吧」（被倒讚 214）", "chat", "b"],
   ];
   let FEED_I = 3;
-  function feedRow(f) { return `<div class="fr"><img src="avatars/${f[0]}.png" alt="" onerror="this.style.visibility='hidden'"><div class="fr-b"><b>${esc(f[1])}</b><span>${esc(f[2])}</span></div><span class="chip sm h-${f[4]}">${window.ic(f[3])}</span></div>`; }
+  function feedRow(f) { return `<div class="fr"><img src="${(window.AVIMG||{})[f[0]+".png"]||"avatars/"+f[0]+".png"}" alt="" onerror="this.style.visibility='hidden'"><div class="fr-b"><b>${esc(f[1])}</b><span>${esc(f[2])}</span></div><span class="chip sm h-${f[4]}">${window.ic(f[3])}</span></div>`; }
   // 房間裡真的發生的事，用同一種 LIVE 動態樣式呈現
   let LOG_SEEN = 0;
   function liveLog(S, n) {
@@ -3600,7 +3645,7 @@ if (typeof module !== "undefined") module.exports = GAME;
     LOG_SEEN = Math.max(LOG_SEEN, newest);
     return `<div class="feed"><div class="feed-hd"><span class="live"><i></i>LIVE</span>房間動態</div>${rows || '<p class="muted small">還沒有動靜。</p>'}</div>`;
   }
-  function cmtRow(c) { return `<div class="cm-row"><img src="avatars/${c[0]}.png" alt="" onerror="this.style.visibility='hidden'"><div class="cm-b"><b>${esc(c[1])}</b><span>${esc(c[2])}</span></div><time>${c[3]}</time></div>`; }
+  function cmtRow(c) { return `<div class="cm-row"><img src="${(window.AVIMG||{})[c[0]+".png"]||"avatars/"+c[0]+".png"}" alt="" onerror="this.style.visibility='hidden'"><div class="cm-b"><b>${esc(c[1])}</b><span>${esc(c[2])}</span></div><time>${c[3]}</time></div>`; }
   let RP_TIMER = null;
   // 貼文熱度：首頁和遊戲中都持續增加（每台手機各自跳動，只是氛圍，不影響遊戲）
   const HEAT = { rp: 2435, cm: 764, vw: 18492 };
@@ -3685,7 +3730,7 @@ if (typeof module !== "undefined") module.exports = GAME;
     const dots = S.players.map((p) => `<span class="dot ${p.ready ? "ready" : ""} ${p.online ? "" : "off"} ${p.pid === VIEW.you ? "me" : ""}">${esc(p.role ? "«" + p.role + "»" : p.name)}${p.pid === S.hostPid ? "★" : ""}${S.phase === 4 && S.votes[p.pid] ? " ✓" : ""}</span>`).join("");
     const canReady = typeof S.phase === "number" && S.phase <= 3;
     return `<div class="top"><div class="in">
-      <div><div class="act"><span class="live"><i></i>LIVE</span>${esc(PHASE_NAME[S.phase])}<span class="gstat" title="那則貼文還在被轉發"><span class="g-rp">${window.ic("repost")}<b id="g-rp">${HEAT.rp.toLocaleString("en-US")}</b></span><span>${window.ic("chat")}<b id="g-cm">${HEAT.cm.toLocaleString("en-US")}</b></span></span></div><div class="small muted">房間 ${esc(S.code)}${m && m.role ? "・你是 " + esc(ROLE(m.role).name) : ""}${typeof S.phase === "number" && S.phase >= 2 && S.phase <= 3 ? "・搜證點數 " + m.points : ""}</div></div>
+      <div><div class="act"><span class="live"><i></i>LIVE</span>${esc(PHASE_NAME[S.phase])}${S.deadline && typeof S.phase === "number" && S.phase >= 1 && S.phase <= 3 ? `<span class="timer" id="act-timer" title="時間到自動進入下一幕">${fmtLeft()}</span>` : ""}<span class="gstat" title="那則貼文還在被轉發"><span class="g-rp">${window.ic("repost")}<b id="g-rp">${HEAT.rp.toLocaleString("en-US")}</b></span><span>${window.ic("chat")}<b id="g-cm">${HEAT.cm.toLocaleString("en-US")}</b></span></span></div><div class="small muted">房間 ${esc(S.code)}${m && m.role ? "・你是 " + esc(ROLE(m.role).name) : ""}${typeof S.phase === "number" && S.phase >= 2 && S.phase <= 3 ? "・搜證點數 " + m.points : ""}</div></div>
       ${canReady ? `<button class="btn ${m.ready ? "ok" : "primary"}" id="ready">${m.ready ? "已準備 ✓" : "準備好"}</button>` : ""}
     </div>${typeof S.phase === "number" && S.phase >= 1 && S.phase <= 5 ? `<div class="acts" aria-label="第 ${Math.min(S.phase, 4)} / 4 幕">${[1, 2, 3, 4].map((i) => `<span class="${S.phase > i ? "done" : S.phase === i ? "on" : ""}"></span>`).join("")}</div>` : ""}<div class="dots">${dots}</div><div class="small center" style="color:var(--danger)" id="conn">${connState.s === "ok" ? "" : esc(connState.msg)}</div></div>`;
   }
@@ -3699,6 +3744,14 @@ if (typeof module !== "undefined") module.exports = GAME;
     return `<div class="tabs"><div class="in">${t.map(([id, ic, l]) => `<button data-tab="${id}" class="t-${id} ${VIEW.tab === id ? "on" : ""}"><b>${window.ic(ic)}</b>${l}${id === "msg" && unreadHope ? '<span class="badge">!</span>' : ""}</button>`).join("")}</div></div>`;
   }
 
+  function fmtLeft() { const S = VIEW.S; if (!S || !S.deadline) return ""; const ms = Math.max(0, S.deadline - hostNow()); const t = Math.ceil(ms / 1000); return String(Math.floor(t / 60)).padStart(2, "0") + ":" + String(t % 60).padStart(2, "0"); }
+  let WARNED = null;
+  setInterval(() => {
+    const S = VIEW.S; const el = document.getElementById("act-timer");
+    if (el && S && S.deadline) { el.textContent = fmtLeft(); const left = S.deadline - hostNow(); el.classList.toggle("warn", left <= 60000);
+      if (left <= 60000 && left > 0 && WARNED !== S.phase + ":" + S.deadline) { WARNED = S.phase + ":" + S.deadline; toast("這一幕剩 1 分鐘，時間到會自動進入下一幕"); } }
+    const gc = document.getElementById("game-cd"); if (gc) { const m = me(); const w = m && m.gTry ? EARN.cooldown - (hostNow() - m.gTry) : 0; if (w <= 0) { if (gc.dataset.wait) render(); } else gc.textContent = "冷卻中 " + Math.ceil(w / 1000) + " 秒"; }
+  }, 1000);
   function sysBubble(text) { return `<div class="sys"><div class="av"></div><div><div class="nm">${esc(G.system.name)}</div><div class="pre">${esc(text)}</div></div></div>`; }
 
   function renderLobby() {
@@ -3724,18 +3777,16 @@ if (typeof module !== "undefined") module.exports = GAME;
   function renderPick() {
     const S = VIEW.S, m = me(), isHost = VIEW.you === S.hostPid, r = ROLE(m.role);
     const my = S.names[m.role] || "";
-    const others = S.pool.filter((id) => id !== m.role).map((id) => `<div class="row" style="flex-wrap:nowrap">${avatar(id, 40)}<div><b>${esc(charName(id))}</b>${S.names[id] ? "" : ' <span class="small muted">（還沒取名）</span>'}<div class="small muted">${esc(ROLE(id).oneLine)}</div></div></div>`).join("");
+    const others = S.pool.filter((id) => id !== m.role).map((id) => `<div class="row" style="flex-wrap:nowrap">${avatar(id, 40)}<div><b>${esc(charName(id))}</b><div class="small muted">${esc(ROLE(id).oneLine)}</div></div></div>`).join("");
     app().innerHTML = `<div class="wrap stack">
-      <div style="margin-top:12px"><h2>你抽到了 角色${esc(S.letters[m.role])}</h2><p class="small muted">角色是隨機分配的。替你的角色取一個名字，這個名字會出現在所有人的劇本、線索和結局裡。</p></div>
+      <div style="margin-top:12px"><h2>你的角色：${esc(charName(m.role))}</h2><p class="small muted">角色是隨機分配的。你的暱稱就是角色名字，會出現在所有人的劇本、線索和結局裡。</p></div>
       <div class="pick mine" style="cursor:default">${avatar(m.role, 64)}<div class="pk-body"><div class="pk-name">${esc(charName(m.role))}</div><div class="small">${esc(r.oneLine)}</div></div></div>
-      <label class="small muted">角色名字（最多 6 個字；不填就叫「角色${esc(S.letters[m.role])}」）</label>
-      <div class="row" style="flex-wrap:nowrap"><input class="input" id="cn" maxlength="6" placeholder="例如：沈念" value="${esc(my)}"><button class="btn" id="cnok" style="white-space:nowrap">存名字</button></div>
       <div class="card stack"><div><b>選一個頭像</b><div class="small muted">只是外觀，跟角色身分無關。每個頭像一局只能一個人用。</div></div>
         <div class="avgrid">${(G.avatars || []).map((av) => { const owner = Object.entries(S.avatars || {}).find(([rid, v]) => v === av.id); const mine = owner && owner[0] === m.role; const dis = owner && !mine; return `<button class="avopt ${mine ? "on" : ""}" data-av="${av.id}" ${dis ? "disabled" : ""}>${avatarById(av.id, 48)}<span>${esc(av.label)}</span></button>`; }).join("")}</div></div>
       <div class="card stack"><div class="small muted">這一局的其他角色</div>${others}</div>
       <div class="card"><div class="row">${S.players.map((p) => `<span class="dot ${p.ready ? "ready" : ""} ${p.pid === VIEW.you ? "me" : ""}">${esc(p.name)}${p.ready ? " ✓" : ""}</span>`).join("")}</div></div>
       <button class="btn ${m.ready ? "ok" : "primary"} block" id="ready">${m.ready ? "已確定 ✓（再按取消）" : "確定，開始讀本"}</button>
-      ${isHost ? `<button class="btn block" id="reroll">（開房者）重新抽角色</button><button class="btn ghost block small" id="force">（開房者）不等了，直接開始</button>` : ""}
+      ${isHost ? `<button class="btn ghost block small" id="force">（開房者）有人斷線，不等了直接開始</button>` : ""}
       <p class="small center" style="color:var(--danger)" id="conn">${connState.s === "ok" ? "" : esc(connState.msg)}</p>
     </div>`;
     bind();
@@ -3751,7 +3802,7 @@ if (typeof module !== "undefined") module.exports = GAME;
     else if (S.phase <= 3) h += sysBubble(G.system.acts[S.phase]);
     if (actText) h += `<div class="act-prompt"><div class="small" style="color:var(--accent)">這一幕你可以做的事</div><div>${esc(actText)}</div></div>`;
     h += `<div class="paper row" style="flex-wrap:nowrap;align-items:center">${avatar(r.id, 72)}<div><div class="small" style="color:#7a6a4f">${esc(r.angle)}</div><h2 style="color:var(--ink);margin:0">${esc(r.name)}</h2><p style="color:#5a5044">${esc(r.oneLine)}</p></div></div>`;
-    h += `<details class="card"><summary>其他角色</summary><div class="stack" style="margin-top:10px">${inGameRoles().filter((id) => id !== r.id).map((id) => `<div class="row" style="flex-wrap:nowrap">${avatar(id, 44)}<div><b>${esc(ROLE(id).name)}</b>（${esc(VIEW.S.players.find((p) => p.role === id)?.name || "")}）<div class="small muted">${esc(ROLE(id).oneLine)}</div></div></div>`).join("")}</div></details>`;
+    h += `<details class="card"><summary>其他角色</summary><div class="stack" style="margin-top:10px">${inGameRoles().filter((id) => id !== r.id).map((id) => `<div class="row" style="flex-wrap:nowrap">${avatar(id, 44)}<div><b>${esc(ROLE(id).name)}</b><div class="small muted">${esc(ROLE(id).oneLine)}</div></div></div>`).join("")}</div></details>`;
     h += `<label class="small muted">跳到段落</label><select class="input" id="jump">${r.sections.map((s, i) => `<option value="${i}">${i + 1}. ${esc(s.h)}</option>`).join("")}<option value="x">${r.sections.length + 1}. 各幕提示</option></select>`;
     h += r.sections.map((s, i) => `<div class="paper" id="sec${i}"><h3>${esc(s.h)}</h3><div class="pre">${esc(s.t)}</div></div>`).join("");
     h += `<div class="paper" id="secx"><h3>各幕提示</h3>${[1, 2, 3].map((k) => `<p><b>第${"一二三"[k - 1]}幕：</b>${esc(r.acts[k])}</p>`).join("")}</div>`;
@@ -3770,8 +3821,51 @@ if (typeof module !== "undefined") module.exports = GAME;
       const lk = LOC_LOOK[l.id] || ["pin", "a"];
       return `<div class="card loc ${locked ? "locked" : ""}"><span class="chip h-${lk[1]}">${window.ic(locked ? "lock" : lk[0])}</span><div style="flex:1"><div><b>${esc(l.name)}</b></div><div class="small muted">${locked ? "第三幕開放" : "剩 " + left + " 張"}</div></div><button class="btn ${dis ? "" : "primary"}" data-draw="${l.id}" ${dis ? "disabled" : ""}>${window.ic("search")}搜證</button></div>`;
     }).join("");
+    if (S.phase >= 2 && S.phase <= 3) h += earnBlock();
     h += hintBlock();
     return h;
+  }
+
+  function earnBlock() {
+    const m = me(), e = m.earn || { pub: 0, game: 0 };
+    const wait = m.gTry ? EARN.cooldown - (hostNow() - m.gTry) : 0;
+    const gLeft = EARN.gameMax - e.game, pLeft = EARN.pubMax - e.pub;
+    let g;
+    if (gLeft <= 0) g = `<span class="small muted">這一幕的小遊戲次數用完了</span>`;
+    else if (wait > 0) g = `<span class="cd small" id="game-cd" data-wait="1">冷卻中 ${Math.ceil(wait / 1000)} 秒</span>`;
+    else g = `<button class="btn primary" id="play">${window.ic("repost")}攔截轉發（還能玩 ${gLeft} 次）</button>`;
+    return `<div class="card stack game-card"><b>點數不夠？用行動換</b>
+      <div class="small">1. <b>公開一張線索</b>換 1 點（這一幕還能換 ${Math.max(0, pLeft)} 次）。到「證物」分頁按「公開給大家」。</div>
+      <div class="small">2. <b>攔截轉發</b>小遊戲：6 秒內點掉 5 則轉發通知，成功得 1 點。每次挑戰後要等 2 分鐘。</div>
+      <div>${g}</div></div>`;
+  }
+
+  // 攔截轉發：6 秒內點掉 5 則轉發通知
+  function playGame() {
+    act({ k: "gtry" });
+    const need = 5, dur = 6000, life = 1300;
+    let hit = 0, over = false, spawnT = null;
+    const d = document.createElement("div"); d.className = "mg";
+    d.innerHTML = `<div class="mg-hd"><b>攔截轉發！</b><div class="small">那張照片又被轉出去了。6 秒內點掉 ${need} 則轉發通知。</div><div class="mg-score" id="mg-s">0 / ${need}</div></div><div class="mg-field"></div>`;
+    document.body.appendChild(d);
+    const field = d.querySelector(".mg-field"), sc = d.querySelector("#mg-s");
+    const texts = ["有人轉發了這則貼文", "+1 轉發", "你的朋友分享了", "轉發到限動", "私訊轉傳中…", "又被截圖了"];
+    const end = (win) => {
+      if (over) return; over = true; clearInterval(spawnT);
+      if (win) act({ k: "gwin" });
+      field.innerHTML = `<div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:16px"><b style="font-size:1.4rem">${win ? "攔截成功！+1 點" : "沒攔住…"}</b><div class="small">${win ? "搜證點數已經加上去了。" : "2 分鐘後可以再挑戰一次。"}</div><button class="btn primary" id="mg-ok">回到搜證</button></div>`;
+      d.querySelector("#mg-ok").onclick = () => { d.remove(); render(); };
+    };
+    const spawn = () => {
+      if (over) return;
+      const b = document.createElement("button"); b.className = "mg-n"; b.textContent = texts[Math.floor(Math.random() * texts.length)];
+      const fw = field.clientWidth, fh = field.clientHeight;
+      b.style.left = Math.round(Math.random() * Math.max(10, fw - 170)) + "px"; b.style.top = Math.round(Math.random() * Math.max(10, fh - 50)) + "px";
+      b.onclick = () => { if (b.classList.contains("hit") || over) return; b.classList.add("hit"); hit++; sc.textContent = hit + " / " + need; if (hit >= need) end(true); setTimeout(() => b.remove(), 300); };
+      field.appendChild(b); setTimeout(() => { if (!b.classList.contains("hit")) b.remove(); }, life);
+    };
+    spawn(); spawnT = setInterval(spawn, 520);
+    setTimeout(() => end(hit >= need), dur);
   }
 
   function hintBlock() {
@@ -3921,9 +4015,8 @@ if (typeof module !== "undefined") module.exports = GAME;
     const S = VIEW.S;
     bindTheme();
     document.querySelectorAll("[data-tab]").forEach((b) => (b.onclick = () => { VIEW.tab = b.dataset.tab; render(); window.scrollTo(0, 0); }));
-    const rd = $("#ready"); if (rd) rd.onclick = () => { const c = $("#cn"); if (c && !me().ready && c.value.trim() !== (VIEW.S.names[me().role] || "")) act({ k: "name", name: c.value }); act({ k: "ready", v: !me().ready }); };
+    const rd = $("#ready"); if (rd) rd.onclick = () => act({ k: "ready", v: !me().ready });
     const st = $("#stuck"); if (st) st.onclick = () => act({ k: "stuck" });
-    const rr = $("#reroll"); if (rr) rr.onclick = () => { if (sure("重新抽會清掉大家取好的名字，確定？")) act({ k: "reroll" }); };
     document.querySelectorAll("[data-av]").forEach((b) => (b.onclick = () => act({ k: "avatar", av: b.dataset.av })));
     const cnok = $("#cnok"); if (cnok) cnok.onclick = () => { act({ k: "name", name: $("#cn").value }); toast("已儲存"); };
     const cn = $("#cn"); if (cn) cn.onkeydown = (e) => { if (e.key === "Enter") cnok.click(); };
@@ -3941,6 +4034,7 @@ if (typeof module !== "undefined") module.exports = GAME;
     document.querySelectorAll("[data-v]").forEach((b) => (b.onclick = () => { const [q, id] = b.dataset.v.split(":"); VOTE[q] = id; render(); }));
     const vt = $("#vote"); if (vt) vt.onclick = () => { const v = {}; for (const q of G.votes) { v[q.id] = VOTE[q.id]; if (!v[q.id]) return toast("兩題都要選"); } if (sure("送出後無法更改，確定？")) act({ k: "vote", v }); };
     document.querySelectorAll("[data-rub]").forEach(initRub);
+    const pl = $("#play"); if (pl) pl.onclick = playGame;
   }
 
   const RUBCV = {};
